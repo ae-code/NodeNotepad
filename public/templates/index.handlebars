@@ -1,0 +1,10 @@
+{{#each notes}}
+	<tr class='notes_row' row_id='{{_id}}'>
+       	        <td><i class='icon-chevron-right'></i></td>
+		<td>{{author}}</td>
+		<td>{{prettyDateTime creation_date}}</td>
+		<td>{{prettyDateTime update_date}}</td>
+		<td>{{title}}</td>
+	        <td><div class='note_remove'><i class='icon-remove' title='Delete Note''></i></div></td>
+	</tr>
+{{/each}}
